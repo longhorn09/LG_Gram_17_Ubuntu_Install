@@ -27,3 +27,6 @@ Performed with Ubuntu Budgie 19.10 on a [LG 17Z990-R.AAS7U1](https://www.lg.com/
 After adding ```pci=nommconf``` before ```quiet splash``` then save changes and afterwards run
 
 ```sudo update-grub```
+
+## References
+[Useful reference](https://zieba.dev/linux/laptop/lg/gram/2019/07/27/lggram17.html)
