@@ -1,4 +1,4 @@
-# Ubuntu_LG_Gram_17
+# Installing Ubuntu 19.10 on LG Gram 17 (2019)
 Setup instructions to facilitate installation of Ubuntu on LG Gram 17.
 
 Performed with Ubuntu Budgie 19.10 on a [LG 17Z990-R.AAS7U1](https://www.lg.com/us/laptops/lg-17Z990-RAAS7U1-ultra-slim-laptop) installed on a SATA SSD.
@@ -28,5 +28,5 @@ After adding ```pci=nommconf``` before ```quiet splash``` then save changes and 
 
 ```sudo update-grub```
 
-## References
+# References
 [Useful reference](https://zieba.dev/linux/laptop/lg/gram/2019/07/27/lggram17.html)
