@@ -17,5 +17,6 @@ Setup instructions to facilitate installation of Ubuntu on LG Gram 17
 ```vim /etc/default/grub```
 ![edit_nomm2](https://user-images.githubusercontent.com/11417589/68453880-75cbee80-01bc-11ea-9da0-28ab7c39fb15.jpg)
 
-After adding ```pci=nommconf```, then save changes and afterwards run
+After adding ```pci=nommconf``` before ```quiet splash``` then save changes and afterwards run
+
 ```sudo update-grub```
