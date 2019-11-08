@@ -28,5 +28,7 @@ After adding ```pci=nommconf``` before ```quiet splash``` then save changes and 
 
 ```sudo update-grub```
 
+At this point, you should be good to go and never have to bother with the ```pci=nommconf``` setting again. 
+
 # References
 [Useful reference](https://zieba.dev/linux/laptop/lg/gram/2019/07/27/lggram17.html)
