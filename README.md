@@ -11,5 +11,11 @@ Setup instructions to facilitate installation of Ubuntu on LG Gram 17
 5. Save and exit the BIOS, upon reboot spam e, and make sure to add 
 ```pci=nommconf```  before ```quiet nosplash```
 ![edit_nom](https://user-images.githubusercontent.com/11417589/68453881-75cbee80-01bc-11ea-8ca3-ccc04aed4624.jpg)
-6. Upon reboot, 
+6. Upon reboot after initial Ubuntu installation, to get back into the OS you will likely need pci=nommconf by spamming e
+7. Finally once in, modify the boot permanently by editing
+
+```vim /etc/default/grub```
 ![edit_nomm2](https://user-images.githubusercontent.com/11417589/68453880-75cbee80-01bc-11ea-9da0-28ab7c39fb15.jpg)
+
+After adding ```pci=nommconf```, then save changes and afterwards run
+```sudo update-grub```
