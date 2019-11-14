@@ -19,14 +19,26 @@ Performed with Ubuntu Budgie 19.10 on a [LG 17Z990-R.AAS7U1](https://www.lg.com/
 
 8. Finally once logged into Ubuntu, modify the boot permanently with your editor (vim, nano, etc)
 
-```vim /etc/default/grub```
+```bash
+vim /etc/default/grub
+```
 
 ![grub_cmdline_linux](https://user-images.githubusercontent.com/11417589/68455478-19b79900-01c1-11ea-8f12-4167ed923612.png)
 
+```bash
+GRUB_DEFAULT=0
+GRUB_TIMEOUT_STYLE=hidden
+GRUB_TIMEOUT=0
+GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+GRUB_CMDLINE_LINUX_DEFAULT="pci=nommconf quiet splash"
+GRUB_CMDLINE_LINUX=""
+```
 
-After adding ```pci=nommconf``` before ```quiet splash``` then save changes and afterwards run
+After adding `pci=nommconf` before `quiet splash` then save changes and afterwards run
 
-```sudo update-grub```
+```bash
+sudo update-grub
+```
 
 At this point, you should be good to go and never have to bother with the ```pci=nommconf``` setting again. 
 
