@@ -22,9 +22,6 @@ Performed with Ubuntu Budgie 19.10 on a [LG 17Z990-R.AAS7U1](https://www.lg.com/
 ```bash
 vim /etc/default/grub
 ```
-
-![grub_cmdline_linux](https://user-images.githubusercontent.com/11417589/68455478-19b79900-01c1-11ea-8f12-4167ed923612.png)
-
 ```bash
 GRUB_DEFAULT=0
 GRUB_TIMEOUT_STYLE=hidden
